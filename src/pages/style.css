@@ -162,7 +162,7 @@ a.nav-link.active:hover {
 }
 
 .typing-text {
-    overflow: hidden;
+    overflow: auto;
     white-space: nowrap;
     animation: typing-animation 3s steps(40) forwards;
 }
@@ -218,7 +218,6 @@ a.nav-link.active:hover {
     border: 1px solid #473d52;
 }
 
-
 .project-btn {
     color: #FFB8BF;
     background-color: #473d52;
@@ -250,6 +249,7 @@ a.nav-link.active:hover {
         .home, .about, .tech, .projects {
             background-image: url("../img/pinkBackgroundPortrait.png");
         }
+
         #legend {
             display: none;
         }
@@ -293,6 +293,17 @@ a.nav-link.active:hover {
 
     .tech-head {
         padding: 1rem;
+    }
+
+    .left .buttons {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 1rem;
+    }
+
+    .project-btn, .contact-btn {
+        margin: 0.5rem;
     }
 }
 
