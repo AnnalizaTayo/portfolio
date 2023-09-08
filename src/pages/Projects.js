@@ -27,7 +27,7 @@ const Projects = () => {
     const projects = [
         {
             title: 'PawOrder Pet Shop',
-            details: "Discover our Pet Essentials Shop & Vet Appointment Scheduler, a React-based website hosted on Netlify. Shop for pet essentials with a user-friendly catalog and checkout. Plus, schedule vet appointments online, choosing your preferred vet and time slot. We've integrated MockAPI for realistic data. Simplify pet care in one place!",
+            details: "Pet Essentials Shop & Vet Appointment Scheduler, a React-based website hosted on Netlify. Shop for pet essentials with a user-friendly catalog and checkout. Plus, schedule vet appointments online, choosing your preferred vet and time slot. We've integrated MockAPI for realistic data. Simplify pet care in one place!",
             techStack: ['react', 'css', 'nodejs', 'netlify'],
             gifSrc: '/gif/paworder.gif',
         },
