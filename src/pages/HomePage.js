@@ -4,7 +4,7 @@ import './style.css';
 const HomePage = () => {
     return (
         <div className="home">
-            <div className="left text-center">
+            <div className="left">
                 <h3 className="p-1 text-4xl font-bold">Hello! Welcome to my Profile</h3>
                 <h1 className="p-2 text-6xl font-bold fade">I am Anna Tayo</h1>
                 <h4 className="p-2 text-2xl font-bold typing-text mb-4">Full Stack Web / Software Developer | Fiction Writer</h4>

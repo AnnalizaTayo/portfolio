@@ -288,6 +288,7 @@ a.nav-link.active:hover {
     .left {
         width: 95%;
         padding: 2rem !important;
+        text-align: center;
     }
 
 
