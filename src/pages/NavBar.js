@@ -35,7 +35,7 @@ const NavBar = () => {
         <button className='hamburger' onClick={handleToggle}>
           <GiHamburgerMenu />
         </button>
-        <ul className={`${toggle ? 'show' : 'hide'} collapsing`}>
+        <ul className={`${toggle ? 'show' : 'hide'} collapsing text-center`}>
           <NavCollapse exact to="/" label="Home" onClick={handleCollapseItemClick} />
           <NavCollapse to="/about-me" label="About" onClick={handleCollapseItemClick} />
           <NavCollapse to="/my-techstack" label="My Tech Stack" onClick={handleCollapseItemClick} />
