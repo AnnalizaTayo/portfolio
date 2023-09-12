@@ -98,7 +98,6 @@ const Projects = () => {
             <div className="left">
                 <h1 className="text-5xl font-bold fade text-center">My Sample Outputs</h1>
                 <div className="p-4">
-                    <h1 className="text-3xl font-semibold mb-4 text-center">My Projects</h1>
                     <Slider {...sliderSettings}>
                         {projects.map((project, index) => (
                         <div key={index}>
